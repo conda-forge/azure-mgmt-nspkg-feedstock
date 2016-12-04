@@ -11,6 +11,18 @@ Summary: Microsoft Azure Resource Management Namespace Package
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-nspkg-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-nspkg-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-mgmt-nspkg-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-mgmt-nspkg-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-mgmt-nspkg-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-mgmt-nspkg-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-nspkg/badges/version.svg)](https://anaconda.org/conda-forge/azure-mgmt-nspkg)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-nspkg/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-mgmt-nspkg)
+
 Installing azure-mgmt-nspkg
 ===========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `azure-mgmt-nspkg` available on yo
 ```
 conda search azure-mgmt-nspkg --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-nspkg-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-nspkg-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-mgmt-nspkg-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-mgmt-nspkg-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-mgmt-nspkg-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-mgmt-nspkg-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-nspkg/badges/version.svg)](https://anaconda.org/conda-forge/azure-mgmt-nspkg)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-nspkg/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-mgmt-nspkg)
 
 
 Updating azure-mgmt-nspkg-feedstock
