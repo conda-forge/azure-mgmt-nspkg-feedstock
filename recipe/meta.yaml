@@ -10,11 +10,13 @@ source:
   md5: dc751917eebb5e8a9059f0de9e52d121
   
 build:
-  script: python setup.py install --single-version-externally-managed --record=record.txt
-  number: 0
+  noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
+  number: 1
 
 requirements:
-  build:
+  host:
+    - pip
     - python
     - setuptools
     - azure-nspkg
