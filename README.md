@@ -14,14 +14,15 @@ Summary: Microsoft Azure Resource Management Namespace Package
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-nspkg-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-nspkg-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-mgmt-nspkg-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-mgmt-nspkg-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-mgmt-nspkg-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-mgmt-nspkg-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/azure-mgmt-nspkg-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/azure-mgmt-nspkg-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-nspkg/badges/version.svg)](https://anaconda.org/conda-forge/azure-mgmt-nspkg)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-nspkg/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-mgmt-nspkg)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-azure--mgmt--nspkg-green.svg)](https://anaconda.org/conda-forge/azure-mgmt-nspkg) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/azure-mgmt-nspkg.svg)](https://anaconda.org/conda-forge/azure-mgmt-nspkg) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/azure-mgmt-nspkg.svg)](https://anaconda.org/conda-forge/azure-mgmt-nspkg) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/azure-mgmt-nspkg.svg)](https://anaconda.org/conda-forge/azure-mgmt-nspkg) |
 
 Installing azure-mgmt-nspkg
 ===========================
