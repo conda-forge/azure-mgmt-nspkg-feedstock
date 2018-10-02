@@ -1,4 +1,4 @@
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: azure-mgmt-nspkg
@@ -7,7 +7,7 @@ package:
 source:
   fn: azure-mgmt-nspkg-{{ version }}.zip
   url: https://pypi.io/packages/source/a/azure-mgmt-nspkg/azure-mgmt-nspkg-{{ version }}.zip
-  md5: c461b70cac7108b1fd06dad2f36a1d53
+  md5: 9830848b1d032cf391407e9bcd070afa
   
 build:
   noarch: python
