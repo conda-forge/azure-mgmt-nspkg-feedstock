@@ -6,26 +6,28 @@ package:
 
 source:
   fn: azure-mgmt-nspkg-{{ version }}.zip
-  url: https://pypi.io/packages/source/a/azure-mgmt-nspkg/azure-mgmt-nspkg-{{ version }}.zip
+  url: https://pypi.org/packages/source/a/azure-mgmt-nspkg/azure-mgmt-nspkg-{{ version }}.zip
   md5: f62b88344ab0728b4d08250aadaf64c0
   
 build:
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
-  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 1
 
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
     - setuptools
     - azure-nspkg
   
   run:
-    - python
+    - python >={{ python_min }}
     - azure-nspkg
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - azure
     - azure.mgmt
